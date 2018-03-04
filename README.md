@@ -2,7 +2,7 @@
 <img  src="https://dl.dropboxusercontent.com/s/5kubbg4bvz0idwn/high_resolution_small.jpg" alt="logo" style="max-width:30%;"/>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sachinruk/deepschool.io/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/telescopeuser/deepschool.io/master)
 ### Goals
 1. Make Deep Learning easier (minimal code).
 2. Minimise required mathematics.
@@ -18,11 +18,11 @@ There's a few ways you can support this initiative:
 3. Star this repository and share it!
 
 ### Installation
-If you are a beginner (haven't done CNNs yet) simply click [this link](https://mybinder.org/v2/gh/sachinruk/deepschool.io/master) instead of following the installation comands below. It launches a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sachinruk/deepschool.io/master)
+If you are a beginner (haven't done CNNs yet) simply click [this link](https://mybinder.org/v2/gh/telescopeuser/deepschool.io/master) instead of following the installation comands below. It launches a live notebook server with these notebooks using [binder](https://beta.mybinder.org/): [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/telescopeuser/deepschool.io/master)
 1. Install Docker https://www.docker.com/
 2. Use the following commands to run from docker<sup>[1](#myfootnote1)</sup>.
 ```
-git clone https://github.com/sachinruk/deepschool.io.git
+git clone https://github.com/telescopeuser/deepschool.io.git
 cd deepschool.io
 bash run.sh
 ```
@@ -69,4 +69,4 @@ Find the corresponding video tutorial here (not all notebooks have an associated
 https://www.youtube.com/playlist?list=PLIx9QCwIhuRS1SPS9LHF7VjvZyM1g2Swz
 
 ### Notes
-<a name="myfootnote1">1</a>: Refer to this [Dockerfile](https://github.com/sachinruk/Dockerfiles/blob/master/ML_class/Dockerfile) and [this](https://github.com/sachinruk/Dockerfiles/blob/master/DS_base/Dockerfile) for information on how the docker image was built.
+<a name="myfootnote1">1</a>: Refer to this [Dockerfile](https://github.com/telescopeuser/Dockerfiles/blob/master/ML_class/Dockerfile) and [this](https://github.com/telescopeuser/Dockerfiles/blob/master/DS_base/Dockerfile) for information on how the docker image was built.
